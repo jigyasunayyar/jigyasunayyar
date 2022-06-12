@@ -165,7 +165,7 @@ content:
   - title: Skill Set
     layout: text
     content: | # this will include new lines to allow paragraphs
-      These is the compiled list of skills I possess.
+      Here is the compiled list of skills I possess.
       - **Code Stack** : *Python*, *C#*, *VB*, *Javascripts*, *Bash scripts*.
       - **Big Data stack** : *Apache Spark*, *Apache Beam*, *Hadoop*, *Hive*.
       - **RDBMS** : *PostgreSQL*, *MySQL*, *CloudSQL*.
