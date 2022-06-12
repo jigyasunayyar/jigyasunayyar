@@ -1,0 +1,200 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jigyasu Nayyar
+title: Senior Data Engineer
+email: connect@jigyasunayyar.com
+website: www.jigyasunayyar.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jigyasunayyar
+github_username:  jigyasunayyar
+stackoverflow_username: "11368643"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: jigyasunayyar
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is jigyasu and I'm a senior data engineer.
+  As well as buidling data warehouses, I have experience developing and migrating analytics modules for cutsomer and retail analytics companies.
+  with passion to learn and upgrade, I can build API's as well as write SQL queries to bring analytical inferences for the mission critical businesses.
+  
+  I have 8 Years of extensive IT experience falling in finance and retail domain.
+  Data management has remain constant throughout this whole journey. I beleive if structure is provided to anything it become comprehensive and enable more possibilities.
+  I provide that structure to the data to enable analytical teams and unravel all the new possiblities.
+  This seed helps businesses take logical decision which pushes their revenues to next level.
+content:
+  - title: Projects # Title for the section
+    border: weak
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Intrado Warehousing
+        quote: >
+          Telecom product moving to cloud
+        description: | # this will include new lines to allow paragraphs
+          This project was classic migration project from On-prem to **GCP**. This includes stream loads, batch loads, ELT loads. we utilized all the GCP offering like **Dataflow**, **Apache Beam**, **cloud Functions**, **Pub-Sub**, **Bigquery**, **Dataproc**, **Cloud Run**. we utilized **cloud monitoring** for service now integration. CI/CD pipeline was integrated with Github and **Terraform** was used extensively for IAAS.
+
+      - layout: top-middle
+        title: Tesco onsite media
+        quote: >
+          Big Data product to provide 360 view of campaign
+        description: | # this will include new lines to allow paragraphs
+          This Project was complete Big data legacy product built on Spark and hadoop platform. Providing wholesome view of targeted media and campaign performance under same umbrela by generating more than 1200 KPI's.
+      - layout: top-middle
+        title: Foodpanda Warehousing
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: https://github.com/deliveryhero
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This Hybrid project consist of Data migration, warehouse foundation, ML operations and analytical operations.
+        description: | # this will include new lines to allow paragraphs
+          I worked on this project as part of my <mark>Delivery Hero</mark> stint.
+          The Project was mainly python intensive since we orchestrated basically everything using <mark>Airflow</mark>.
+          Also consumed **DBT** for analytical report models. The main task was to lay multiple pipeline to move data from **AWS** to **GCP** and provide the warehousing at **bigquery**.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: DeliveryHero
+        link: https://www.deliveryhero.com/
+        link_text: DeliveryHero
+        sub_title: Senior Data Engineer
+        caption: March 2022 - Present
+        quote: >
+          World leader in offering delivery solution through different brands.
+        description: | # this will include new lines to allow paragraphs
+          Delivery hero is the parent of Food panda brand and maintain its all business processes.
+          they have others brands like talabat, foodora, foodiosys, yemek and many more. 
+          I assisted BI Europe team setup their warehouse and analytical platform utilising **airflow** and **DBT**
+      - layout: left
+        title: EPAM
+        link: https://www.epam.com/
+        link_text: EPAM
+        sub_title: Senior Data Engineer
+        caption: June 2021 - Feb 2022
+        quote: >
+          Emerging IT service company with top class talent and best projects in the market
+        description: | # this will include new lines to allow paragraphs
+          During this stint I helped a telecom service provider migrate from on prem infra to cloud services. 
+          started from scratch and layed the foundation for warehousing needs utilised all the **GCP** offerings to provide scalable, robust business process system.
+          laid the foundation of best development practices for continuous development and deployment. utilising **cloud build** to orchestrate between different deployments.
+          gave intrado flexibility to expand from 8 streaming pipeline to 56 streaming pipelines and onboard multiple customers with smooth intergration.
+
+      - layout: left
+        title: Dunnhumby
+        link: https://www.dunnhumby.com/
+        link_text: Dunnhumby
+        sub_title: Lead Data science engineer
+        caption: June 2018 - June 2021
+        quote: >
+            First Customer Data science company to provide different abstracts of transactional data for TESCO
+        description: | # this will include new lines to allow paragraphs
+            joined the company in transition phase where they where migrating all the legacy build data scinece workload to open source new tech.
+            Being experienced in **Spark** and **Python** I assisted many teams migrate their Oracle workload to hadoop. single handedly drive the development of
+            Onsite media product on **GCP**. with this, provided cost effective approach and bring down the rundown cost by 70%.
+      - layout: left
+        title: CGI
+        link: https://www.cgi.com/en
+        link_text: CGI
+        sub_title: Software Engineer
+        caption: September 2014 - June 2018
+        quote: >
+          Assisting major life insurance provider in canada run their business processes efficiently
+        description: | # this will include new lines to allow paragraphs
+          Every Company's core is their Business process system And I help these business process run smoothly.
+          I worked on different projects providing *ETL* support, developing API and maitaining different business process like Artefact storage, Data mining.
+          Also, provided data science capabilities to explore the sales possibilities in different region of the countries.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Punjab Technical University
+        caption: 2010 - 2014
+        sub_title: B.Tech - Information Technology
+        quote: >
+          Established in 1997, Punjab Technical University is one of the prestigious educational institute in India.
+          Providing many undergraduate and post graduate programs in varsity of fields.
+        description: | # this will include new lines to allow paragraphs
+          During my time at university I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time in Theatre club and lead a team which won nationals in *One Act Play*.
+          I myself have been adjudged *best actor* in many competition representing my institution. This is how was got inspired by *creativity* and *art*
+
+  - title: Skill Set
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      These is the compiled list of skills I possess.
+      - **Code Stack** : *Python*, *C#*, *VB*, *Javascripts*, *Bash scripts*.
+      - **Big Data stack** : *Apache Spark*, *Apache Beam*, *Hadoop*, *Hive*.
+      - **RDBMS** : *PostgreSQL*, *MySQL*, *CloudSQL*.
+      - **Cloud Stack** : *DataFlow*, *Cloud Functions*, *Big Query*, *Data-proc*, *Compute Engine*,
+             *Cloud AI*, *Cloud ML*, *Big Table*, *Cloud Spanner*.
+      - **CI/CD and versioning** : *Cloud Build*, *Cloud Repo/artifactory*, *Git Actions*, *GitLab*, *SVN*.
+      - **Scheduler**: *Apache Airflow*, *cloud composer*, *Cron*, *cloud scheduler*.
+
+  - title: Extracurricular
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Apart from spending time in front of screen I like to :
+      - Play out door sports like Cricket. currently playing for a prominent Berlin club and will represt **Bundesliga** in Germany.
+      - Practice martial arts. Trained in Kick boxing and *Jujutsu*(Grappling)
+      - Practice advance Yoga and Deep Meditation. 1.5 hours every day.
+      - Read books on psychology and spirituality.
+      - watching podcasts and movies sometimes.
+      - taking leisure walk in nature. Also loves hiking and trekking.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
