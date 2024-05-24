@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jigyasu Nayyar
-title: Senior Data Engineer
+title: Senior Data Engineer - Google cloud platform
 email: connect@jigyasunayyar.com
 website: www.jigyasunayyar.com
 
@@ -48,19 +48,52 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is jigyasu and I'm a senior data engineer.
-  As well as buidling data warehouses, I have experience developing and migrating analytics modules for cutsomer and retail analytics companies.
-  with passion to learn and upgrade, I can build API's as well as write SQL queries to bring analytical inferences for the mission critical businesses.
+  Hi, my name is Jigyasu and I help businesses to streamline Data ingestion pipelines, laying foundations of data warehouses over cloud platforms.
+  These data warehouses can enrich analytical platform, machine learning platform or app backend. So far, I have experience developing and 
+  migrating analytics modules for customer and retail analytics companies. with passion to learn and upgrade, I can build API's as well
+  as write SQL queries to bring analytical inferences for the mission critical businesses.
   
-  I have 8 Years of extensive IT experience falling in finance and retail domain.
-  Data management has remain constant throughout this whole journey. I beleive if structure is provided to anything it become comprehensive and enable more possibilities.
-  I provide that structure to the data to enable analytical teams and unravel all the new possiblities.
-  This seed helps businesses take logical decision which pushes their revenues to next level.
+  I have 10 Years of extensive IT experience falling in finance and retail domain.
+  Data management has remain constant throughout this whole journey. I believe if structure is provided to anything it become comprehensive and enable more possibilities.
+  I provide that structure to the Data to empower analytical teams and unravel all the new possibilities.
+  This seed helps businesses take logical decision which pushes their revenues to the next level.
 content:
   - title: Projects # Title for the section
     border: weak
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Master Data foundation
+        quote: >
+          Central repository of Product data over cloud platform
+        description: | # this will include new lines to allow paragraphs
+          
+          At Mediamarkt-Saturn there was long pending requirement of central repository of product data. Ideally product data is delivered in feature
+          frames defined by the data providers which are not suitable for MMS internal schema. therefore, Business wants to owns this mapping in-house 
+          to eliminate the dependency on external providers. This arises the incubation of **Master Data foundation**. 
+          To achieve this we ingested data from various providers in MDF and curated it for the mapping stage. Business governance team defined the 
+          mapping using a mapping tool called **ProductsUp**. we exchange the raw feed in return of MMS taxonomy mapped feed. which is further delivered to
+          all the product data consumers. we used **Airflow** for orchestration, **Kubernetes** cluster to run our workloads, **Dataflow** to validate and ingest data 
+          to **bigquery**. Also, we used best practices to containerize workload using **docker** and all the cloud infrastructure was maintained by the team using **terraform**.
+
+      - layout: top-middle
+        title: Foodpanda Warehousing
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+        #          - title:  sproogen/modern-resume-theme
+        #            icon: fab fa-github
+        #            url: https://github.com/deliveryhero
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This Hybrid project consist of Data migration, warehouse foundation, ML operations and analytical operations.
+        description: | # this will include new lines to allow paragraphs
+          I worked on this project as part of my <mark>Delivery Hero</mark> stint.
+          The Project was mainly python intensive since we orchestrated basically everything using <mark>Airflow</mark>.
+          Also consumed **DBT** for analytical report models. The main task was to lay multiple pipeline to move data from **AWS** to **GCP** and provide the warehousing at **bigquery**.
+
       - layout: top-middle
         title: Intrado Warehousing
         quote: >
@@ -74,33 +107,30 @@ content:
           Big Data product to provide 360 view of campaign
         description: | # this will include new lines to allow paragraphs
           This Project was complete Big data legacy product built on Spark and hadoop platform. Providing wholesome view of targeted media and campaign performance under same umbrela by generating more than 1200 KPI's.
-      - layout: top-middle
-        title: Foodpanda Warehousing
-        # link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: https://github.com/deliveryhero
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This Hybrid project consist of Data migration, warehouse foundation, ML operations and analytical operations.
-        description: | # this will include new lines to allow paragraphs
-          I worked on this project as part of my <mark>Delivery Hero</mark> stint.
-          The Project was mainly python intensive since we orchestrated basically everything using <mark>Airflow</mark>.
-          Also consumed **DBT** for analytical report models. The main task was to lay multiple pipeline to move data from **AWS** to **GCP** and provide the warehousing at **bigquery**.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Mediamarkt-Saturn
+        link: https://careers.mediamarktsaturn.com/MMSTech/?locale=en_US
+        link_text: Mediamarkt-Saturn
+        sub_title: Senior Data Engineer
+        caption: January 2023 - Present
+        quote: >
+          Largest Electronic Retail giant in whole Europe
+        description: | # this will include new lines toß allow paragraphs
+          Mediamarkt-Saturn have 50% of Europe's Electronics retail market share. With Headquarters in Germany, 
+          They owns more than 1000 retails store established all across europe.
+          I assisted Product team to setup a warehouse from scratch. This warehouse was fed from various product catalogue providers using API's and SFTP protocols.
+          we utilised **Dataflow** to stage the data in **Bigquery**. We utilised **airflow** and **DBT** Container to run the transformation and  **SCD** process over
+          **kubernetes** clusters. Then we serve data to our consumers using an API hosted over **App-Engine**
+      - layout: left
         title: DeliveryHero
         link: https://www.deliveryhero.com/
         link_text: DeliveryHero
         sub_title: Senior Data Engineer
-        caption: March 2022 - Present
+        caption: March 2022 - December 2022
         quote: >
           World leader in offering delivery solution through different brands.
         description: | # this will include new lines to allow paragraphs
